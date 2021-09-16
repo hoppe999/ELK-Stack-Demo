@@ -3,8 +3,9 @@ A demonstration of a functional ELK stack
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
+![NetworkTopology](https://user-images.githubusercontent.com/85206944/133693589-fe840871-2698-4418-a3b1-8138f9921308.png)
 
-Diagrams/NetworkTopology.png
+
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook files may be used to install only certain pieces of it, such as Filebeat.
 
@@ -66,7 +67,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-Diagrams/docker-ps.png
+![docker-ps](https://user-images.githubusercontent.com/85206944/133693557-1b586f42-7bd9-44dd-a853-4d66c6226fbf.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
